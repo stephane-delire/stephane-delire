@@ -11,7 +11,9 @@ Welcome to my GitHub profile!
 [![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,figma,jquery,qt,react,threejs)](https://skillicons.dev)
 ## Backend
 [![My Skills](https://skillicons.dev/icons?i=py,azure,bash,c,cpp,flask,mysql,nginx,opencv,php,postgres,pytorch,sqlite)](https://skillicons.dev)
-## And more generally what I like to use
+
+---
+### And more generally what I like to use
 [![My Skills](https://skillicons.dev/icons?i=ableton,ae,latex,arduino,autocad,blender,linux,github,md,obsidian,ps,selenium)](https://skillicons.dev)
 
 ---
