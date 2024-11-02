@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    font-family: "Tinos", serif;
+}
+
+.page {
+    height: 297mm;
+    width: 210mm;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+}
+#headerFond {
+    grid-column: 1 / 25;
+    grid-row: 1 / 5;
+    background-color: black;
+    border-bottom-right-radius: 20px;
+}
+#name {
+    grid-column: 2 / 24;
+    grid-row: 5 / 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    color: #111;
+    transform: translateY(-20px);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+#title {
+    grid-column: 9 / 17;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #f5f5f5;
+    border-radius: 3px;
+    background-color: black;
+    color: #f5f5f5;
+    transform: translateY(-20px);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    height: 20px;
+}
+#HeaderInfos {
+    grid-column: 1 / 25;
+    grid-row: 2 / 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f5f5f5;
+    font-size: 12px;
+    transform: translateY(10px);
+}
+#HeaderInfos * {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#picture {
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    flex-direction: row;
+    transform: translateY(-10px);
+}
+#picture img {
+    width: 350px;
+    height: 350px;
+    transform: translateY(100px);
+}
+
+.section {
+    border-bottom: 1px solid #333;
+    border-bottom-right-radius: 20px;
+}
+
+#A_propos {
+    grid-column: 2 / 24;
+    grid-row: 6 / 11;
+}
+#Experience {
+    grid-column: 2 / 24;
+    grid-row: 11 / 23;
+}
+#formation {
+    grid-column: 2 / 24;
+    grid-row: 23 / 30;
+}
+
+#competences {
+    grid-column: 2 / 24;
+    grid-row: 4 / 13;
+}
+#interest {
+    grid-column: 2 / 24;
+    grid-row: 13 / 19;
+}
+#motivation {
+    grid-column: 2 / 24;
+    grid-row: 19 / 27;
+}
+#lastContact {
+    grid-column: 2 / 24;
+    grid-row: 27 / 30;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.numPage {
+    color: #555;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
